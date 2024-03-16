@@ -1,5 +1,4 @@
 import streamlit as st
-from scipy import stats
 
 def ab_test(control_visitors, control_conversions, treatment_visitors, treatment_conversions, confidence_level):
 
